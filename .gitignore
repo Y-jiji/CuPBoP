@@ -45,3 +45,15 @@ CMakeCache.txt
 # OS generated files
 .DS_Store
 .DS_Store?
+
+# CMake build folder
+/build
+
+# Cuda Intermediate Repr
+*.cui
+
+# Assembly
+*.s
+
+# Cuda Fatbin
+*.fatbin

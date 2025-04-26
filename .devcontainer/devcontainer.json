@@ -1,0 +1,5 @@
+{
+    "name": "CuPBoP",
+    "build": {"dockerfile": "Dockerfile"},
+    "runArgs": ["--runtime=nvidia", "--gpus", "all"]
+}
